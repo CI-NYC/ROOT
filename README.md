@@ -13,27 +13,7 @@ import warnings
 import sklearn.tree as tree
 
 warnings.filterwarnings("ignore")
-
-%load_ext jupyter_black
 ```
-
-
-
-<script type="application/javascript" id="jupyter_black">
-(function() {
-    if (window.IPython === undefined) {
-        return
-    }
-    var msg = "WARNING: it looks like you might have loaded " +
-        "jupyter_black in a non-lab notebook with " +
-        "`is_lab=True`. Please double check, and if " +
-        "loading with `%load_ext` please review the README!"
-    console.log(msg)
-    alert(msg)
-})()
-</script>
-
-
 
 ## Generating Synthetic Data for Example
 
